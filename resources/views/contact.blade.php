@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Hello DSI21</h1>
+    <h2>{{ $msg }}</h2>
 </body>
 </html>
