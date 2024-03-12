@@ -13,4 +13,9 @@ class Contact extends Model
         $message = "Hello DSI21 G2";
         return $message;
     }
+
+    public function getDetails() {
+        $details = ['50% coton', '30% laine', '20% polyester'];
+        return $details;
+    }
 }
